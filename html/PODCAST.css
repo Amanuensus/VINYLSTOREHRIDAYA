@@ -1,0 +1,67 @@
+.discussion-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #181818;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.discussion-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.discussion-meta {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.discussion-actions {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.btn {
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post {
+    display: flex;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+}
+
+.post-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.post-user {
+    font-weight: bold;
+    color: #f9cb28;
+}
+
+.post-content p,
+.post-content ul {
+    margin: 5px 0;
+}
+
+.post-actions {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 8px;
+}

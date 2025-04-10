@@ -1,0 +1,75 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    padding: 40px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.product {
+    background: #181818;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.artist, .price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.title {
+    font-size: 16px;
+    color: #aaa;
+    margin: 5px 0 10px;
+}
+
+.sold-out-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #d32f2f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.buy-button {
+    background: #2e2b2b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: auto;
+    align-self: center;
+}
